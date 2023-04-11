@@ -6,7 +6,7 @@
 #    By: fmoreira <fmoreira@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/06 01:37:52 by fmoreira          #+#    #+#              #
-#    Updated: 2023/04/11 03:21:33 by fmoreira         ###   ########.fr        #
+#    Updated: 2023/04/11 03:35:20 by fmoreira         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -50,7 +50,7 @@ clean:
 	$(LIBSMK) $(LIBFT_DIR) clean
 
 fclean: clean
-	$(RM) $(NAME)
+	$(RM) $(NAME) $(OBJ_DIR)
 	$(LIBSMK) $(LIBFT_DIR) fclean
 
 re: fclean all
